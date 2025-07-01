@@ -22,7 +22,7 @@ if st.button("Predict Condition"):
         # Make a prediction
         prediction = model.predict(transformed_input)[0]
         
-        # Display the prediction
+       # Display the output 
         st.write(f"The predicted condition is: **{prediction}**")
     else:
         st.write("Please enter a review to make a prediction.")
